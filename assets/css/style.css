@@ -1,0 +1,103 @@
+/*---Navbar---*/
+.navalert-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+.navbar {
+    
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    
+
+}
+.navbar .navbar-toggler {
+    border: 0;
+    color:#000;
+}
+.navbar-brand {
+    
+    font-weight: bold;
+
+}
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+/*---Body---*/
+
+.callout-container {
+    height: 100vh; 
+    background: url("../images/bikebackground.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+}
+.opaque-overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+/*---Jumbotron---*/
+
+.jumbotron {
+    background-color:transparent;
+}
+.jumbotron-header {
+    color:#000;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.jumbotron .lead {
+    margin: 25px 0;
+    color:#a7a7a7;
+}
+
+/*---Footer---*/
+
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+        margin-top: 40px;
+        margin-bottom: 10px;
+        font-size: 25px;
+        line-height: 25px;
+}
+.social-links {
+
+    padding-bottom: 15px;
+}
+.social-links li a i {
+    width: 32px; /* The width is equal to height and the border-radius 50% to made a circle */
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%; 
+    font-size: 16px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.social-links li a i:hover {
+
+    background-color: #1a87ee;
+}
