@@ -7,29 +7,35 @@
     padding-right: 0;
     z-index: 1;
 }
-.navbar {
+.navalert-container ul li a{
+    transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -webkit-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
     
+}
+.navalert-container ul li a:hover {
+    background-color: #17a2b8;
+}
+.navbar {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    
-
 }
 .navbar .navbar-toggler {
     border: 0;
     color:#000;
 }
 .navbar-brand {
-    
     font-weight: bold;
-
 }
 .navbar .navbar-nav a {
     font-weight: bold;
 }
+
 /*---Body---*/
 
-.callout-container {
+body {
     height: 100vh; 
     background: url("../images/bikebackground.jpg") no-repeat bottom right fixed; 
     -webkit-background-size: cover;
@@ -47,7 +53,7 @@
     left:0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.9);
 }
 /*---Jumbotron---*/
 
@@ -73,13 +79,13 @@
 }
 
 .feature i {
-        margin-top: 40px;
-        margin-bottom: 10px;
-        font-size: 25px;
-        line-height: 25px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 25px;
 }
 .social-links {
-
+    text-align: bottom ;
     padding-bottom: 15px;
 }
 .social-links li a i {
@@ -92,12 +98,11 @@
     text-align: center;
     color: #fafafa;
     background-color: #000;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition:0.35s ease-in-out;
+    -moz-transition:0.35s ease-in-out;
+    -webkit-transition:0.35s ease-in-out;
+    -o-transition:0.35s ease-in-out;
 }
 .social-links li a i:hover {
-
-    background-color: #1a87ee;
+    background-color: #17a2b8;
 }
