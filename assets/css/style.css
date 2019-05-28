@@ -5,6 +5,15 @@
 .navbar {
     font-family: 'Heebo', sans-serif;
 }
+.nav-link {
+    transition: 0.35s ease-in-out;
+    -moz-transition:0.35s ease-in-out;
+    -webkit-transition:0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
+}
+.nav-link:hover {
+    background: #df5819;
+}
 
 /*---Body---*/
 
