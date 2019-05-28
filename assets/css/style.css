@@ -2,8 +2,12 @@
 .navalert-container {
     padding: 0;
 }
+.navbar {
+    font-family: 'Heebo', sans-serif;
+}
 
 /*---Body---*/
+
 
 .main {
     height: 100vh; 
@@ -12,14 +16,22 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display:flex;
+   
     align-items: center;
     position:relative;
+    
+}
+.main {
+    font-family: 'Heebo', sans-serif;
 }
 
-.my-4 {
+hr {
     background-color: #df5819;
     padding:0.1px;
+    width: 50%;
+}
+.name {
+    margin-top: 35vh;
 }
 
 
@@ -27,6 +39,7 @@
 
 p.uppercase.text-center {
     color: #fafafa;
+    font-family: 'Heebo', sans-serif;
 }
 
 .social-links li a i {
@@ -45,7 +58,7 @@ p.uppercase.text-center {
     -o-transition:background-color 0.35s ease-in-out;
 }
 .social-links li a i:hover {
-    background-color: #17a2b8;
+    background-color: #df5819;
 }
 footer {
     position:fixed;
