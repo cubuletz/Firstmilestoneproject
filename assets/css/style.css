@@ -1,11 +1,11 @@
 /*---Navbar---*/
 .navalert-container {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     padding-left: 0;
     padding-right: 0;
-    z-index: 1;
+
 }
 .navalert-container ul li a{
     transition: 0.35s ease-in-out;
@@ -15,7 +15,7 @@
     
 }
 .navalert-container ul li a:hover {
-    background-color: #17a2b8;
+    font: #17a2b8;
 }
 .navbar {
     margin-bottom: 0;
@@ -32,12 +32,15 @@
 .navbar .navbar-nav a {
     font-weight: bold;
 }
+nav.navbar.navbar-dark.navbar-expand-sm.bg-dark {
+    padding: 0;
+}
 
 /*---Body---*/
 
 body {
     height: 100vh; 
-    background: url("../images/bikebackground.jpg") no-repeat bottom right fixed; 
+    background: url("../images/bikebackground.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -56,36 +59,35 @@ body {
     background-color: rgba(0,0,0,0.9);
 }
 /*---Jumbotron---*/
+.callout-container {
+    margin-top: 0;
+    margin-bottom: 200px;
+}
 
 .jumbotron {
     background-color:transparent;
-}
+    }
 .jumbotron-header {
     color:#000;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin: 0;
+    position: relative;
+    
 }
 .jumbotron .lead {
-    margin: 25px 0;
-    color:#a7a7a7;
+    margin: 200px 0;
+    color:#fafafa;
+}
+.jumbotron .text-center {
+    margin: 0;
+    padding: 0;
 }
 
 /*---Footer---*/
-
-
-.feature {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.feature i {
-    margin-top: 40px;
-    margin-bottom: 10px;
-    font-size: 25px;
-    line-height: 25px;
+p.uppercase.text-center {
+    color: #fafafa;
 }
 .social-links {
-    text-align: bottom ;
     padding-bottom: 15px;
 }
 .social-links li a i {
@@ -96,13 +98,19 @@ body {
     font-size: 16px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
+    color: #a7a7a7;
     background-color: #000;
-    transition:0.35s ease-in-out;
-    -moz-transition:0.35s ease-in-out;
-    -webkit-transition:0.35s ease-in-out;
-    -o-transition:0.35s ease-in-out;
+    transition: background-color 0.35s ease-in-out;
+    -moz-transition:background-color 0.35s ease-in-out;
+    -webkit-transition:background-color 0.35s ease-in-out;
+    -o-transition:background-color 0.35s ease-in-out;
 }
 .social-links li a i:hover {
     background-color: #17a2b8;
+}
+.container-fluid {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
 }
