@@ -1,0 +1,101 @@
+/*---Navbar---*/
+.navalert-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.navalert-container ul li a{
+    transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -webkit-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
+    
+}
+.navalert-container ul li a:hover {
+    font: #17a2b8;
+}
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+}
+.navbar .navbar-toggler {
+    border: 0;
+    color:#000;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/*---Body---*/
+
+body {
+    height: 100vh; 
+    background: url("../images/bikebackground.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+}
+.opaque-overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+}
+/*---Jumbotron---*/
+
+.jumbotron {
+    background-color:transparent;
+}
+.jumbotron-header {
+    color:#000;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.jumbotron .lead {
+    margin: 25px 0;
+    color:#a7a7a7;
+}
+
+/*---Footer---*/
+
+.social-links {
+    padding-bottom: 15px;
+}
+.social-links li a i {
+    width: 32px; /* The width is equal to height and the border-radius 50% to made a circle */
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%; 
+    font-size: 16px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #000;
+    transition:0.35s ease-in-out;
+    -moz-transition:0.35s ease-in-out;
+    -webkit-transition:0.35s ease-in-out;
+    -o-transition:0.35s ease-in-out;
+}
+.social-links li a i:hover {
+    background-color: #17a2b8;
+}
+.container-fluid {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+}
