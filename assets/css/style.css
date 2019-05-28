@@ -1,22 +1,53 @@
+/*---Navbar---*/
+.navalert-container {
+    padding: 0;
+}
+
 /*---Body---*/
 
-body {
+.main {
     height: 100vh; 
     background: url("../images/bikebackground.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
+    display:flex;
     align-items: center;
-    justify-content: center;
     position:relative;
 }
-.opaque-overlay {
-    position: absolute;
-    top:0;
-    left:0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.9);
+
+.my-4 {
+    background-color: #df5819;
+    padding:0.1px;
+}
+
+
+/*---Footer---*/
+
+p.uppercase.text-center {
+    color: #fafafa;
+}
+
+.social-links li a i {
+    width: 32px; 
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%; 
+    font-size: 16px;
+    line-height: 7px;
+    text-align: center;
+    color: #a7a7a7;
+    background-color: #000;
+    transition: background-color 0.35s ease-in-out;
+    -moz-transition:background-color 0.35s ease-in-out;
+    -webkit-transition:background-color 0.35s ease-in-out;
+    -o-transition:background-color 0.35s ease-in-out;
+}
+.social-links li a i:hover {
+    background-color: #17a2b8;
+}
+footer {
+    position:fixed;
+    bottom: 0px;
 }
