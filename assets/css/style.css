@@ -32,6 +32,7 @@
 }
 .main {
     font-family: 'Heebo', sans-serif;
+    color: #fff;
 }
 
 hr {
@@ -43,28 +44,22 @@ hr {
     margin-top: 35vh;
 }
 h1 ,p{
-    text-shadow: 1px 1px #fafafa;
+    text-shadow: 1px 1px #6c757d;
 }
-
 
 
 /*---Footer---*/
 
-p .uppercase .text-center {
-    color: #fafafa;
-    font-family: 'Heebo', sans-serif;
-}
-
 .social-links li a i {
-    width: 32px; 
-    height: 32px;
-    padding: 12px 0;
+    width: 40px; 
+    height: 40px;
+    padding: 15px 0;
     border-radius: 50%; 
-    font-size: 16px;
+    font-size: 20px;
     line-height: 7px;
     text-align: center;
     color: #a7a7a7;
-    background-color: #000;
+    background-color: #fff;
     transition: background-color 0.35s ease-in-out;
     -moz-transition:background-color 0.35s ease-in-out;
     -webkit-transition:background-color 0.35s ease-in-out;
@@ -77,6 +72,11 @@ footer {
     position:fixed;
     bottom: 0px;
 }
+ p.uppercase.text-center {
+     color: #fff;
+     font-size: 30px;
+     font-weight: 100;
+ }
 
 /*---About Us---*/
 
