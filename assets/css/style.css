@@ -42,21 +42,15 @@ hr {
 .name {
     margin-top: 35vh;
 }
-h1 {
-    text-shadow: 2px 2px #fafafa;
-}
-p {
-    text-shadow: 1px 0px #fafafa;
-}
-div.col-12{
-    text-shadow: 2px 2px #df5819;
+h1 ,p{
+    text-shadow: 1px 1px #fafafa;
 }
 
 
 
 /*---Footer---*/
 
-p.uppercase.text-center {
+p .uppercase .text-center {
     color: #fafafa;
     font-family: 'Heebo', sans-serif;
 }
