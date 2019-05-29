@@ -1,4 +1,5 @@
 /*---Navbar---*/
+
 .navalert-container {
     padding: 0;
 }
@@ -73,3 +74,15 @@ footer {
     position:fixed;
     bottom: 0px;
 }
+
+/*---About Us---*/
+
+.title {
+    font-family: 'Heebo', sans-serif;
+    float: left;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+ .title hr {
+     width: 100%;
+ }
