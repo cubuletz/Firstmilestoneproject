@@ -79,9 +79,14 @@ footer {
 
 .title {
     font-family: 'Heebo', sans-serif;
-    float: left;
-    padding-top: 30px;
-    padding-left: 30px;
+    height: 100vh; 
+    background: url("../images/image.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    position:relative;
     
 }
  .title hr {
