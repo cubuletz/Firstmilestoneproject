@@ -18,8 +18,15 @@
 
 /*---Body---*/
 
+@font-face {
+    font-family: 'Arvo';
+    font-display: auto;
+    src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  }
 
 .main {
+    font-family: 'Heebo', sans-serif;
+    color: #fff;
     height: 100vh; 
     background: url("../images/bikebackground.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -28,11 +35,6 @@
     background-size: cover;
     align-items: center;
     position:relative;
-    
-}
-.main {
-    font-family: 'Heebo', sans-serif;
-    color: #fff;
 }
 
 hr {
@@ -43,6 +45,7 @@ hr {
 .name {
     margin-top: 35vh;
 }
+
 h1 ,p{
     text-shadow: 1px 1px #6c757d;
 }
