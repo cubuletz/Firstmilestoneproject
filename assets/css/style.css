@@ -1,11 +1,6 @@
 /*---Navbar---*/
 
-.navalert-container {
-    padding: 0;
-}
-.navbar {
-    font-family: 'Heebo', sans-serif;
-}
+
 .nav-link {
     transition: 0.35s ease-in-out;
     -moz-transition:0.35s ease-in-out;
@@ -22,7 +17,7 @@
     font-family: 'Heebo', sans-serif;
     color: #fff;
     height: 100vh; 
-    background: url("../images/bikebackground.jpg") no-repeat center center fixed; 
+    background: url("../images/wing6.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -72,7 +67,6 @@ footer {
  p.uppercase.text-center {
      color: #fff;
      font-size: 30px;
-     font-weight: 100;
  }
 
 /*---About Us---*/
@@ -80,7 +74,7 @@ footer {
 .title {
     font-family: 'Heebo', sans-serif;
     height: 100vh; 
-    background: url("../images/image.jpg") no-repeat center center fixed; 
+    background: url("../images/wing5.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
