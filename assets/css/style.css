@@ -30,7 +30,6 @@ hr {
     background-color: #df5819;
     padding:0.1px;
     width: 50%;
-    
 }
 .name {
     margin-top: 35vh;
@@ -57,13 +56,14 @@ hr {
     background-color: #df5819;
 }
 footer {
-    position:fixed;
+    position: sticky
     bottom: 0px;
+    
 }
  p.uppercase.text-center {
      color: #fff;
      font-size: 30px;
- }
+}
 
 /*---About Us---*/
 
@@ -73,8 +73,11 @@ footer {
 }
  .title hr {
      width: 100%;
- }
+}
  h1.uppercase.text-center {
      font-size: 28px;
      font-weight: bold;
- }
+}
+
+/*---Wings---*/
+
