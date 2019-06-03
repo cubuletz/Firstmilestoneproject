@@ -8,7 +8,7 @@
     -o-transition: 0.35s ease-in-out;
 }
 .nav-link:hover {
-    background: #df5819;
+    background-color: #df5819;
 }
 
 /*---Body---*/
@@ -56,11 +56,10 @@ hr {
     background-color: #df5819;
 }
 footer {
-    position: sticky
+    position:initial;
     bottom: 0px;
-    
 }
- p.uppercase.text-center {
+p.uppercase.text-center {
      color: #fff;
      font-size: 30px;
 }
@@ -78,6 +77,7 @@ footer {
      font-size: 28px;
      font-weight: bold;
 }
+
 
 /*---Wings---*/
 
