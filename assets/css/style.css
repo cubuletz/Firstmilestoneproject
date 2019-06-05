@@ -10,6 +10,10 @@
 .nav-link:hover {
     background-color: #df5819;
 }
+a.navbar-brand {
+    font-size: 36px;
+    font-weight: 700;
+}
 
 /*---Body---*/
 
@@ -57,12 +61,8 @@ hr {
 }
 footer {
     position:initial;
-    padding: none;
-    margin: none;
 }
-footer.container-fluid.bg-dark {
-    height: 6em;
-}
+
 p.uppercase.text-center {
      color: #fff;
      font-size: 25px;
@@ -84,7 +84,7 @@ p.uppercase.text-center {
 div,iframe {
     display: block;
 }
-    
+
     
 
 
