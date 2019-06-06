@@ -46,8 +46,6 @@ hr {
     height: 40px;
     padding: 15px 0;
     margin-top: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
     border-radius: 50%; 
     font-size: 20px;
     line-height: 7px;
@@ -92,16 +90,43 @@ div,iframe {
 }
 
     /*---Wings---*/
-    div.description {
+div.description {
         padding: 15px;
         margin-top: 30px;
         margin-bottom: 30px;
-    }
-    div.image {
+}
+div.image {
         padding: 15px;
+        padding-right: 15px;
         margin-top: 30px;
         margin-bottom: 60px;
-        -webkit-box-shadow: -20px -5px 17px 1px rgba(0,0,0,0.65);
-        -moz-box-shadow: -20px -5px 17px 1px rgba(0,0,0,0.65);
-         box-shadow: -20px -5px 17px 1px rgba(0,0,0,0.65);
-    }
+}
+.wrapper {
+    height: 400px;
+    width: 400px;
+}  
+.wrapper {
+    width: 100%;
+}  
+.image-one {
+    background-image: url("../images/evolution.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100%;
+} 
+.image-two {
+    background-image: url("../images/emotion.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.image-three {
+    background-image: url("../images/eternity.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100%;
+}  
+
+
+
+
