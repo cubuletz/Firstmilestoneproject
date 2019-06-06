@@ -82,7 +82,7 @@ h1.uppercase.text-center {
 
 /*---Wings---*/
 
-    div.description {
+div.description {
         padding: 15px;
         margin-top: 30px;
         margin-bottom: 10px;
@@ -94,9 +94,10 @@ div.image {
         margin-bottom: 10px;
 }
 .wrapper {
-    height: 300px;
-    width: 300px;
-}  
+    width: 100%;
+    min-height: 300px;
+ }
+ 
 div.row.wrap {
     padding: 15px;
     border: 5px;
