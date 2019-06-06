@@ -106,18 +106,27 @@ div.image {
     background-size: cover; 
     background-repeat: no-repeat;
     height: 100%;
+    -webkit-box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.75);
 }
 .image-two {
     background-image: url("../images/emotion.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
     height: 100%;
+    -webkit-box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.75);
 }
 .image-three {
     background-image: url("../images/eternity.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
     height: 100%;
+    -webkit-box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.75);
 }  
 
 
