@@ -33,6 +33,7 @@ a.navbar-brand {
     margin-top: 35vh;
 }
 
+
 /*---Footer---*/
 
 .social-links li a i {
@@ -71,10 +72,10 @@ p.uppercase.text-center {
     font-family: 'Heebo', sans-serif;
     background-color: #a7a7a7;
 }
- .title hr {
-     width: 100%;
+hr{
+    width: 90%;
 }
- h1.uppercase.text-center {
+h1.uppercase.text-center {
      font-size: 28px;
      font-weight:700;
 }
