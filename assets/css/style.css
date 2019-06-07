@@ -120,7 +120,11 @@ div.row.wrap {
     background-size: cover; 
     background-repeat: no-repeat;
     height: 100%;
-}  
+}
+.btn-primary {
+    background-color: #006fe6;
+    margin-top: 40px;
+} 
 
 
 
