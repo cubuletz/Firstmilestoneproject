@@ -135,36 +135,26 @@ div.row.wrap {
 .btn-primary {
     background-color: #006fe6;
     margin-top: 15px;
+    margin-bottom: 15px;
 } 
 
 /*---Contact---*/
 
 .bg-color-contact {
     background-color:#dcdcd8;
-    height: 40vh;
-}
-.aside {
-    width:50%;
-    float: left;
-    margin-left: 30px;
-    min-height: 0;
-}
-.contact-info {
-    margin-bottom: 50px;
-    margin-top: 50px;
-    min-height: 0;
-    padding-bottom:50px;
-}
-div.card-body {
-    padding:50px;
-}
-h2.uppercase.text-center {
-    font-size: 27px;
-    padding-top: 10px;
 }
 .fixed-bottom {
     position: fixed;
     bottom: 0;
+}
+.top {
+    margin-top: 15px;
+    padding-top: 15px;
+}
+.section {
+    bottom: 90px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 
