@@ -67,6 +67,8 @@ a.navbar-brand {
     background-color: #df5819;
 }
 footer {
+    margin-top: 0;
+    padding-top: 0;
     position:initial;
 }
 p.uppercase.text-center {
@@ -143,19 +145,16 @@ div.row.wrap {
 .bg-color-contact {
     background-color:#dcdcd8;
 }
-.fixed-bottom {
-    position: fixed;
-    bottom: 0;
-}
 .top {
     margin-top: 15px;
     padding-top: 15px;
 }
 .section {
-    bottom: 90px;
     padding-bottom: 50px;
     margin-bottom: 50px;
+    max-height:60em;
 }
+
 
 
  
