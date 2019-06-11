@@ -18,8 +18,8 @@
 }
 a.navbar-brand {
     font-size: 36px;
-    font-weight: 600;
 }
+
 
 /*---Main---*/
 
@@ -62,9 +62,9 @@ a.navbar-brand {
     background-color: #df5819;
 }
 footer {
-    margin-top: 0;
     padding-top: 0;
-    position:initial;
+    margin-top: 0;
+    position: static;
 }
 p.uppercase.text-center {
      color: #fff;
@@ -75,10 +75,8 @@ p.uppercase.text-center {
 }
 
 /*---About---*/
-
-.title {
+p.text-justify {
     font-family: 'Heebo', sans-serif;
-    background-color: #a7a7a7;
 }
 hr{
     width: 90%;
@@ -138,16 +136,33 @@ div.row.wrap {
 /*---Contact---*/
 
 .bg-color-contact {
-    background-color:#dcdcd8;
+    background-color:#bbb25ffb;
+    margin: 10px;
 }
 .top {
     margin-top: 15px;
     padding-top: 15px;
 }
 .section {
+    font-family: 'Heebo', sans-serif;
     padding-bottom: 50px;
     margin-bottom: 50px;
 }
+input#fullname.form-control, input#emailadress.form-control, textarea#message.form-control{
+    padding: 3px;
+    margin: 3px;
+}
+.value {
+    font-size: 18px;
+}
+.card-header {
+    font-size: 26px;
+}
+div.col-12.bottom {
+    margin-top: 15px;
+    padding-bottom: 60px;
+}
+
 
 
 
