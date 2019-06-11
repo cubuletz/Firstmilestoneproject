@@ -64,7 +64,7 @@ a.navbar-brand {
 footer {
     padding-top: 0;
     margin-top: 0;
-    position: static;
+    
 }
 p.uppercase.text-center {
      color: #fff;
@@ -145,8 +145,8 @@ div.row.wrap {
 }
 .section {
     font-family: 'Heebo', sans-serif;
-    padding-bottom: 50px;
-    margin-bottom: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 input#fullname.form-control, input#emailadress.form-control, textarea#message.form-control{
     padding: 3px;
@@ -160,7 +160,7 @@ input#fullname.form-control, input#emailadress.form-control, textarea#message.fo
 }
 div.col-12.bottom {
     margin-top: 15px;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
 }
 
 
