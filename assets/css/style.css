@@ -18,7 +18,9 @@
 .navbar-brand {
     font-size: 36px;
 }
- 
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.9);
+}
 
 
 /*---Main---*/
