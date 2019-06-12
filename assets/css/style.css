@@ -67,8 +67,7 @@
 footer {
     padding-top: 0;
     margin-top: 0;
-    position: fixed;
-    
+    position:sticky;
 }
 p.uppercase.text-center {
      color: #fff;
@@ -139,9 +138,7 @@ h1.uppercase.text-center {
     margin-top: 15px;
     margin-bottom: 15px;
 } 
-.form-group {
-   position: relative;
-}
+
 
 /*---Contact---*/
 
