@@ -18,6 +18,7 @@
 .navbar-brand {
     font-size: 36px;
 }
+ 
 
 
 /*---Main---*/
@@ -60,7 +61,7 @@
     -o-transition:background-color 0.35s ease-in-out;
 }
 .social-links li a i:hover {
-    background-color: #df5819;
+    background-color: #007bff;
 }
 footer {
     padding-top: 0;
@@ -142,7 +143,7 @@ h1.uppercase.text-center {
 
 
 .bg-color-contact {
-    background-color:#bbb25ffb;
+    background-color:#dcdcd8;
     margin: 10px;
 }
 .top {
