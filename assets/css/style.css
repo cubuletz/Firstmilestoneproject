@@ -30,11 +30,10 @@
     font-family: 'Heebo', sans-serif;
     color: #fff;
     height: 100vh; 
-    background: url("../images/wing6.jpg") no-repeat center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url("../images/wing6.jpg") no-repeat center fixed;
     background-size: cover;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     position:relative;
 }
@@ -69,6 +68,7 @@
 footer {
     padding-top: 0;
     margin-top: 0;
+    position:-webkit-sticky;
     position:sticky;
 }
 p.uppercase.text-center {
