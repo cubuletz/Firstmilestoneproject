@@ -1,9 +1,5 @@
 /*---Navbar---*/
-html, body {   /*---propreties added for safari---*/
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-}
+
 .nav-link {
     transition:0.35s ease-in-out;
     -moz-transition:0.35s ease-in-out;
