@@ -1,6 +1,12 @@
 /*---Navbar---*/
-
-
+html, body {
+    margin: 0;
+    padding: 0;
+}
+    body {
+    height: 100vh;
+    font-size: 16px;
+}
 .nav-link {
     transition:0.35s ease-in-out;
     -moz-transition:0.35s ease-in-out;
@@ -68,8 +74,7 @@
 footer {
     padding-top: 0;
     margin-top: 0;
-    position:-webkit-sticky;
-    position:sticky;
+   
 }
 p.uppercase.text-center {
      color: #fff;
