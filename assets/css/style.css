@@ -1,7 +1,7 @@
 /*---Navbar---*/
 
 .nav-link {
-    transition:0.35s ease-in-out;
+    transition:color 0.35s ease-in-out;
     -moz-transition:0.35s ease-in-out;
     -webkit-transition:0.35s ease-in-out;
     -o-transition: 0.35s ease-in-out;
@@ -18,7 +18,8 @@
     font-size: 36px;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255,255,255,.9);
+    color: rgb(255,255,255);
+    opacity: 0.9;
 }
 
 
@@ -70,8 +71,7 @@ footer {
     position:-webkit-sticky;
     position:sticky;
 }
-p.uppercase.text-center {
-     color: #fff;
+.uppercase.text-center {
      font-size: 25px;
      margin-top: 30px;
      margin-bottom: 0;
@@ -87,7 +87,7 @@ p.uppercase.text-center {
 hr{
     width: 90%;
 }
-h1.uppercase.text-center {
+.uppercase.text-center {
      font-size: 28px;
      font-weight:700;
 }
@@ -116,23 +116,19 @@ h1.uppercase.text-center {
     border: 5px;
     background-color:#dcdcd8;
 }
-.image-one {
-    background-image: url("../images/evolution.jpg");
+.bg-img {
     background-size: cover; 
     background-repeat: no-repeat;
     height: 100%;
+}
+.image-one {
+    background-image: url("../images/evolution.jpg");
 }
 .image-two {
     background-image: url("../images/emotion3.jpg");
-    background-size: cover; 
-    background-repeat: no-repeat;
-    height: 100%;
 }
 .image-three {
     background-image: url("../images/eternity.jpg");
-    background-size: cover; 
-    background-repeat: no-repeat;
-    height: 100%;
 }
 .btn-primary {
     background-color: #006fe6;
