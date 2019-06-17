@@ -2,11 +2,11 @@
 
 .nav-link {
     transition:color 0.35s ease-in-out;
-    -moz-transition:0.35s ease-in-out;
-    -webkit-transition:0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -webkit-transition: 0.35s ease-in-out;
     -o-transition: 0.35s ease-in-out;
     font-size: 20px;
-    text-decoration:none;
+    text-decoration: none;
     padding: 20px 0;
     margin: 0 5px;
 }
@@ -18,8 +18,7 @@
     font-size: 36px;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: rgb(255,255,255);
-    opacity: 0.9;
+    color: rgba(255,255,255,0.9);
 }
 
 
@@ -35,7 +34,7 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    position:relative;
+    position: relative;
 }
 
 .name {
@@ -58,9 +57,9 @@
     color: #a7a7a7;
     background-color: #fff;
     transition: background-color 0.35s ease-in-out;
-    -moz-transition:background-color 0.35s ease-in-out;
-    -webkit-transition:background-color 0.35s ease-in-out;
-    -o-transition:background-color 0.35s ease-in-out;
+    -moz-transition: background-color 0.35s ease-in-out;
+    -webkit-transition: background-color 0.35s ease-in-out;
+    -o-transition: background-color 0.35s ease-in-out;
 }
 .social-links li a i:hover {
     background-color: #007bff;
@@ -68,44 +67,50 @@
 footer {
     padding-top: 0;
     margin-top: 0;
-    position:-webkit-sticky;
-    position:sticky;
+    position: -webkit-sticky;
+    position: sticky;
 }
 .uppercase.text-center {
-     font-size: 25px;
-     margin-top: 30px;
-     margin-bottom: 0;
-     font-weight: 100;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-weight: 100;
 }
 
 /*---About---*/
 
-
 .text-justify {
     font-family: 'Heebo', sans-serif;
 }
-hr{
+hr {
     width: 90%;
 }
 .uppercase.text-center {
-     font-size: 28px;
-     font-weight:700;
+    font-size: 28px;
+    font-weight:700;
+}
+.col-12.col-md-6 {
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 
 /*---Wings---*/
 
-
+.wings {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .description {
-        padding: 15px;
-        margin-top: 30px;
-        margin-bottom: 10px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .image {
-        padding: 15px;
-        padding-right: 15px;
-        margin-top: 30px;
-        margin-bottom: 10px;
+    padding: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .wrapper {
     width: 100%;
@@ -135,6 +140,10 @@ hr{
     margin-top: 15px;
     margin-bottom: 15px;
 } 
+.wrap {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
 
 /*---Contact---*/
