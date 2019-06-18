@@ -28,8 +28,8 @@
 .main {
     font-family: 'Heebo', sans-serif;
     color: #fff;
-    height: 100vh; 
-    background: url("../images/wing6.jpg") no-repeat center fixed;
+    height:85vh; 
+    background: url("../images/wing6.jpg") no-repeat center;
     background-size: cover;
     -webkit-box-align: center;
     -ms-flex-align: center;
