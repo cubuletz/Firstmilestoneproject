@@ -102,14 +102,21 @@ foreground and background colors.
 
 1. From a mobile view, this is vertically aligned.
 2. In the mobile view, the images are coming on the bottom and the text and buttons on the top in three rows.
-3. I wrapped all the content in a container and then gave a separate column for text and pictures whit class col-12 col-md-6.
+3. I wrapped all the content in a container and then gave a separate column for text and pictures whit class col-12 col-md-6 for a better view in the mobile mode.
 
 
 ### about.html
 
-
+1. From the mobile view, the user can see paragraphs one above the other which makes the text easy to read.
+2. I have used for each paragraph col-12 col-sm-6 to set them one in the top of the other.
+3. I used the bootstrap class 'embedded-responsive' to wrap the 'iframe' which includes the video. This making the video size responsive to the mobile screens.
 
 ### contact.html
+
+1. In the contact file, I used two forms wrapped in a container.
+2. First form it is a 'card form' where I have included 3 fields of information and the second form it is a
+submit form.
+3. For the wrapper container, I gave the class 'col-12 col-md-6' to make the page responsive for the mobile screens.
 
 
 
