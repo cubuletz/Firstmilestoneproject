@@ -20,7 +20,10 @@ This website was designed for existing and for potential lovers of flying to giv
 - Navbar: Allows all users to navigate to any part of the website without the use of browser 'back' and 'forward' buttons.
 - Collapsed Navbar: Gives all users the ability to navigate the site while in the mobile view.
 - Social media links: Allows users to follow WingsShop on social media platforms available (the links are sending the users to the homepage of each platform only)
-
+- I have aligned the navigation to the left, this is where the users look to find a list of options according to Norman Nielsen (https://www.nngroup.com/articles/horizontal-attention-original-research/).
+- On the Navbar I marked in bold the link on the active page, that means a location indicator for the user, because the search engines not always send the users on the home page (https://www.nngroup.com/articles/navigation-you-are-here/).
+- Across the entire website, I used a minimum colour contrast of 4.5:1 between the foreground and the background according to WCAG (web content accessibility guideline) AA standard. To check the colour contrast I used https://webaim.org/resources/contrastchecker/.
+- I used the page heading name the same as the navbar link label because is ideal that users to know they have arrived in the right place (https://www.nngroup.com/articles/link-promise/).
 
 ### Features Left to Implement
 
@@ -31,6 +34,7 @@ In the future I would like to implement the below features:
 
 
 ## Technologies Used
+
 - [HTML] 
      - I used this to structure the website.
 
