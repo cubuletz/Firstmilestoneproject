@@ -136,7 +136,7 @@ hr {
     background-image: url("../images/eternity.jpg");
 }
 .btn-primary {
-    background-color: #006fe6;/* I added propreties to this class to avoid repeating the css for all the three images*/ 
+    background-color: #006fe6;/* I added propreties to this class to avoid repeating the css for all the three images */ 
     margin-top: 15px;
     margin-bottom: 15px;
 } 
