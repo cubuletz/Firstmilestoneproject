@@ -12,6 +12,13 @@ https://cubuletz.github.io/Firstmilestoneproject/
  
 This website was designed for existing and for potential lovers of flying to give them the occasion to see a suit of wings as well as give them the occasion to book a flight whit them.
 
+### User stories
+
+- As a user, I want to navigate my way easy on the website, so I find the information I need.
+- As a user, I want to find out how this works and how can I book a test.
+- As a user, I want to get the contact informations easily, so I don’t have to browse too much on the website.
+- As a user, I want to follow the company on social media, so I keep an eye on the news about products.
+- As a user, I want to make a booking easily.
 
 ## Features
 
