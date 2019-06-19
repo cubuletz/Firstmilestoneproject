@@ -66,7 +66,7 @@ In the future I would like to implement the below features:
      - I used this to edit the video presented on about.html.
 
 - [Balsamiq]() 
-     - I used this to create the prototype of the page.
+     - I used this to create the prototype of the page. The prototype can be found in "assets/wireframes" folder.
 
 ## Testing
 
@@ -126,14 +126,14 @@ I used GitHub Pages to deploy my website by following the steps below:
 
 
 ### Content
-- The pictures for 'home' and 'wings' were copied from [U-Turn website](http://www.u-turn.de/web/).
+
 - The text for 'wings' also was copied from [U-Turn website](http://www.u-turn.de/web/).
 - The text for 'about' is entirely written by me.
 
   
 ### Media
 - The video used on 'about' page is entirely recorded by miself , edited whit GoPro Quick published on https://www.youtube.com/watch?v=ShCQOMgwgl0 and linked to WingsShop website.
-
+- The pictures for 'home' and 'wings' were copied from [U-Turn website](http://www.u-turn.de/web/).
 
 ### Acknowledgements
 
