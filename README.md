@@ -21,22 +21,6 @@ This website was designed for existing and for potential lovers of flying to giv
 - Collapsed Navbar: Gives all users the ability to navigate the site while in the mobile view.
 - Social media links: Allows users to follow WingsShop on social media platforms available (the links are sending the users to the homepage of each platform only)
 
-#### index.html
-
--
-
-#### wings.html
-
-- 
-
-#### about.html
-
-- 
-
-#### contact.html
-
-- 
-
 
 ### Features Left to Implement
 
