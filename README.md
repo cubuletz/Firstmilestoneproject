@@ -136,6 +136,7 @@ I used GitHub Pages to deploy my website by following the steps below:
 
 - The text for 'wings' also was copied from [U-Turn website](http://www.u-turn.de/web/).
 - The text for 'about' is entirely written by me.
+- The comments added are based on what I have learned through the lessons.
 
   
 ### Media
