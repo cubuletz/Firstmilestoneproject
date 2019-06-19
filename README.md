@@ -35,22 +35,22 @@ In the future I would like to implement the below features:
 
 ## Technologies Used
 
-- [HTML] 
+- [HTML](https://www.w3.org/TR/html52/)
      - I used this to structure the website.
 
-- [CSS]() 
+- [CSS](https://www.w3.org/Style/CSS/specs.en.html)
      - I used this to add styling to the HTML structure.
 
 - [Visual Code Studio](https://code.visualstudio.com/) 
      - I used this as IDE.
 
-- [GitHub] 
+- [GitHub](https://github.com/)
      - I used this to push my website and save my commits on it. 
 
-- [JQuery] 
+- [JQuery](https://jquery.com/)
      - I used this for the responsive navbar.
 
-- [DevTools-LightHouse] 
+- [DevTools-Light House](https://developers.google.com/web/tools/lighthouse/v3/scoring)
      - I used this to test some parts of the code and to analyze how the webpage works online and how can be improved.
 
 - [Bootstrap 4.3.1](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css)  
@@ -65,7 +65,7 @@ In the future I would like to implement the below features:
 - [GoPro Quick](https://shop.gopro.com/EMEA/softwareandapp/quik-%7C-desktop/Quik-Desktop.html) 
      - I used this to edit the video presented on about.html.
 
-- [Balsamiq]() 
+- [Balsamiq](https://balsamiq.com/index.html) 
      - I used this to create the prototype of the page. The prototype can be found in "assets/wireframes" folder.
 
 ## Testing
