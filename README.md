@@ -148,3 +148,4 @@ I used GitHub Pages to deploy my website by following the steps below:
 - I received my inspiration for this project from my hobbies then I used as an example some Bootstraps example pages. I also I used the knowledge acquired along the course been inspired by the miniprojects.
 - Thank you to my mentor Antonija Simic who gave me support along with the project.
 - Thank you to Anna Greaves who helped me whit valid answers on my questions and bootstrap documentation page created by herself.
+- I have learned more about UX, reading articles written by Norman Nielsen Group (https://www.nngroup.com/).
